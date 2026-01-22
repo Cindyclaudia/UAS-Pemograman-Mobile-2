@@ -1,31 +1,26 @@
-Recipe Book 
+Recipe Book: Maknyus
+Maknyus adalah aplikasi mobile berbasis Flutter yang digunakan untuk menyimpan, mengelola, dan menampilkan berbagai resep masakan dari berbagai kategori. Aplikasi ini dikembangkan sebagai bagian dari Tugas Besar Individu Pemrograman Mobile, dengan penerapan layanan cloud untuk pengelolaan data secara real-time.
 
-Recipe Book App adalah aplikasi mobile berbasis Flutter yang digunakan untuk menyimpan, mengelola, dan menampilkan berbagai resep masakan dari berbagai kategori. Aplikasi ini dikembangkan sebagai bagian dari Tugas Besar Individu Pemrograman Mobile, dengan penerapan REST API dan layanan cloud untuk pengelolaan data.
-
--Fitur Utama
-
+Fitur Utama
 Aplikasi ini menyediakan fitur pengelolaan data resep secara lengkap dengan dukungan layanan cloud, meliputi:
 
--Autentikasi Pengguna
+Autentikasi Pengguna: Pengguna dapat melakukan login dan registrasi menggunakan Firebase Authentication untuk memastikan akses yang aman dan personal.
 
-Pengguna dapat melakukan login dan registrasi menggunakan Firebase Authentication untuk memastikan akses yang aman dan personal.
+Daftar Resep Dinamis: Menampilkan daftar resep masakan yang diambil dari Firebase Firestore dan ditampilkan secara dinamis dalam bentuk kartu (Card) modern.
 
--Daftar Resep Dinamis
+Manajemen Resep (CRUD):
 
-Menampilkan daftar resep masakan yang diambil dari REST API (Mock API) dan ditampilkan secara dinamis dalam bentuk list.
+Create: Menambahkan resep baru lengkap dengan nama, kategori (Makanan Nusantara atau Snack & Dessert), bahan, langkah, dan URL gambar.
 
--Manajemen Resep (CRUD)
+Read: Melihat daftar resep di halaman utama dan detail resep secara mendalam.
 
-Create: Menambahkan resep baru (nama resep, kategori, bahan, langkah memasak, dan gambar).
+Update: Mengubah data resep yang sudah tersimpan melalui form edit.
 
-Read: Melihat daftar dan detail resep.
+Delete: Menghapus resep yang sudah tidak diperlukan dari database.
 
-Update: Mengubah data resep yang sudah ada.
+Fitur Tambahan: Dilengkapi dengan sistem Rating Interaktif (bintang) dan fitur Favorit untuk menyimpan resep pilihan pengguna.
 
-Delete: Menghapus resep dengan dialog konfirmasi.
-
--Arsitektur & Teknologi
-
+Arsitektur & Teknologi
 Aplikasi ini dibangun menggunakan teknologi berikut:
 
 Bahasa Pemrograman: Dart
@@ -34,13 +29,10 @@ Framework: Flutter
 
 Backend Service:
 
-Firebase Authentication (manajemen pengguna)
+Firebase Authentication: Manajemen identitas pengguna.
 
-Firebase Firestore 
+Firebase Firestore: Database cloud NoSQL untuk penyimpanan data resep.
 
-State Management: setState & FutureBuilder
+State Management: setState, FutureBuilder, dan StreamBuilder untuk sinkronisasi data real-time.
 
-Dibuat Oleh: 
-Nama: Cindy Claudia S.  
-NIM: 23552011412  
-Prodi: Teknik Informatika
+Dibuat Oleh: Nama: Cindy Claudia S. NIM: 23552011412 Prodi: Teknik Informatika
