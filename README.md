@@ -36,9 +36,7 @@ Backend Service:
 
 Firebase Authentication (manajemen pengguna)
 
-Firebase Firestore (data pengguna)
-
-REST API: MockAPI (data resep)
+Firebase Firestore 
 
 State Management: setState & FutureBuilder
 
