@@ -1,0 +1,43 @@
+name: dapur_kita
+description: "A new Flutter project."
+publish_to: 'none'  # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'  # Lebih fleksibel, dukung Flutter terbaru
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^7.0.0
+  lottie: ^3.3.2         # Untuk animasi Lottie di splash screen
+  http: ^1.2.2           # Untuk HTTP requests (API)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets untuk animasi Lottie (tambahkan file JSON kamu di folder ini)
+  assets:
+    - assets/animations/   # Folder ini akan di-load semua file .json di dalamnya
+    # Contoh: - assets/animations/splash_animation.json (kalau spesifik)
+
+  # Opsional: Kalau mau tambah custom font atau icon app nanti
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
+
+  # Opsional: Tambahkan ini kalau mau generate icon app (flutter_launcher_icons)
+  # lalu jalankan `flutter pub run flutter_launcher_icons:main`
+  # flutter_launcher_icons:
+  #   android: "launcher_icon"
+  #   ios: true
+  #   image_path: "assets/icon/icon.png"
