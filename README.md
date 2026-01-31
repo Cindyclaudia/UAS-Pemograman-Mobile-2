@@ -36,3 +36,9 @@ Firebase Firestore: Database cloud NoSQL untuk penyimpanan data resep.
 State Management: setState, FutureBuilder, dan StreamBuilder untuk sinkronisasi data real-time.
 
 Dibuat Oleh: Nama: Cindy Claudia S. NIM: 23552011412 Prodi: Teknik Informatika
+
+
+
+https://github.com/user-attachments/assets/d2a40201-fbaa-4710-b536-a8456e5fa4a2
+
+
